@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirecting...</title>
+		<meta http-equiv="refresh" content="0;url=http://localhost/wordpress_site/wordpress/#/feed/">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "http://localhost/wordpress_site/wordpress/#/feed/";
+		</script>
+
+		<p>You are being redirected to <a href="http://localhost/wordpress_site/wordpress/#/feed/">http://localhost/wordpress_site/wordpress/#/feed/</a></p>
+	</body>
+</html>
