@@ -1,0 +1,76 @@
+.curriculum-table-wrapper {
+    overflow-x: auto;
+}
+.curriculum-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    margin: 0;
+    font-family: inherit;
+}
+.curriculum-table .title-row {
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+.curriculum-table .column-header {
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.curriculum-table .table-row td {
+    border: 1px solid #ddd;
+    padding: 10px 15px 10px 15px;
+    text-align: left;
+    vertical-align: top;
+}
+/* .curriculum-table .table-row:hover td {
+    background-color: #f0f0f0 !important;
+} */
+.curriculum-table .table-footer td {
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.curriculum-table .table-row td.year-cell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.curriculum-table .table-row td.course-code {
+    border-width: 0 0 0 1px;
+    padding-right: 5px;
+}
+
+.curriculum-table .table-row td.course-name {
+    border-width: 0;
+    padding-left: 5px;
+}
+
+.curriculum-table .table-row td.credits {
+    border-width: 0 1px 0 1px;
+}
+
+.curriculum-bottom-section>div {
+    margin-top: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .curriculum-bottom-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .curriculum-description-column {
+        margin-right: 1rem;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    .curriculum-breakdown-column {
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+}
